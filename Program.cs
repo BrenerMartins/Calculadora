@@ -21,8 +21,7 @@ class Program
         Console.WriteLine("Multiplicacao: 4");
         Console.WriteLine("Sair: 5");
         
-        int opcao = int.Parse(Console.ReadLine());
-
+        int opcao = int.Parse(Console.ReadLine());//int parse serve para modificar ou converter para o modo da variavel 
         switch (opcao)
         {
             case 1: Soma(); break;
